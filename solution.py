@@ -5,19 +5,13 @@
 def welcome_assignment_answers(question):
     # Students do not have to follow the skeleton for this assignment.
     # Another way to implement is using a "case" statements similar to C.
-    if question == "Are encoding and encryption the same? - Yes/No":
-        answer = "The student should type the answer here"
-    elif question == "Is it possible to decrypt a message without a key? - Yes/No":
-        answer = "The student should type the answer here"
-    elif question == "In Slack, what is the secret passphrase posted in the #lab-python-getting-started channel posted by a TA?":
-        answer = "Yes/No"
+    if question == "In Slack, what is the secret passphrase posted in the #lab-python-getting-started channel posted by a TA?":
+        answer = "mtls"
     elif question == "Are encoding and encryption the same? - Yes/No":
-        answer = "Yes/No"
+        answer = "No"
     elif question == "Is it possible to decrypt a message without a key? - Yes/No":
-        answer = "Yes/No"
-    elif question == "Is it possible to decode a message without a key? - Yes/No":
-        answer = "Yes/No"
-    elif question == "Is a hashed message supposed to be un-hashed? - Yes/No":
+        answer = "No"
+     elif question == "Is a hashed message supposed to be un-hashed? - Yes/No":
         answer = "Yes/No"
     elif question == "What is the SHA1 hashing value to the following message: 'NYU Computer Networking' - Use SHA1 hash generator and use the answer in your code":
         answer = "Yes/no"
